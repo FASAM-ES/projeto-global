@@ -17,8 +17,7 @@ public class Usuario {
     String senha;
     String telefone;
     String cpf;  
- 
-    
+     
     List<Artigo> artigos;
     List<Comentario> comentarios;
 

@@ -31,7 +31,6 @@ public class Comentario {
         this.artigo = artigo;
     }
     
-
     public String getTitulo() {
         return titulo;
     }
@@ -47,5 +46,4 @@ public class Comentario {
     public void setDescricao(String descricao) {
         this.descricao = descricao;
     }
-      
 }

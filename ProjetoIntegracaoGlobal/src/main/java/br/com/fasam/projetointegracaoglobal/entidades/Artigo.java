@@ -20,6 +20,14 @@ public class Artigo {
     List<Comentario> comentarios;
     List<Tag> tags;
     
+    /* Construtor sem parâmetros */
+    public Artigo() { }
+
+    /* Construtor com parâmetros */
+    public Artigo(Usuario usuario) {
+        this.usuario = usuario;
+    }
+    
     /* Nome */ 
     public String getNome() {
         return nome;
