@@ -4,9 +4,6 @@
  */
 package br.com.fasam.projetointegracaoglobal.entidades;
 
-import java.util.ArrayList;
-import java.util.List;
-
 /**
  *
  * @author Aluno
@@ -15,9 +12,25 @@ public class Comentario {
  
     String titulo;
     String descricao;
-    List<Usuario> usuario;
-    List<Artigo> artigo;
-    private Usuario ArrayList;
+    String usuario;
+    String artigo;
+
+    public String getUsuario() {
+        return usuario;
+    }
+
+    public void setUsuario(String usuario) {
+        this.usuario = usuario;
+    }
+
+    public String getArtigo() {
+        return artigo;
+    }
+
+    public void setArtigo(String artigo) {
+        this.artigo = artigo;
+    }
+    
 
     public String getTitulo() {
         return titulo;
@@ -34,25 +47,5 @@ public class Comentario {
     public void setDescricao(String descricao) {
         this.descricao = descricao;
     }
-    
-    
-    public Usuario getUsuario(Integer i ) {
-        return usuario.get(i);
-    
-    }
-    
-    public void addUsuario(Usuario usuario) {
-        if(this.usuario == null){
-            this.usuario = ArrayList<usuario>();
-        }
-    }
-    
-    public void remUsuario(Usuario usuario){
-        if (this.usuario != null){
-            this.usuario.remove(usuario);
-            
-        }
-        
-    }
-   
+      
 }
