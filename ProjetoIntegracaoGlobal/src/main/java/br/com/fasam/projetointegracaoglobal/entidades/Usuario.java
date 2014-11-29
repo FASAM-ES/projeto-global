@@ -18,6 +18,7 @@ public class Usuario {
     String telefone;
     String cpf;  
     
+    
     List<Artigo> artigos;
     List<Comentario> comentarios;
 
