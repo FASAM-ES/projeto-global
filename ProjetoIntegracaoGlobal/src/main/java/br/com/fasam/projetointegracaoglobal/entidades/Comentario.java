@@ -12,7 +12,25 @@ public class Comentario {
  
     String titulo;
     String descricao;
+    String usuario;
+    String artigo;
 
+    public String getUsuario() {
+        return usuario;
+    }
+
+    public void setUsuario(String usuario) {
+        this.usuario = usuario;
+    }
+
+    public String getArtigo() {
+        return artigo;
+    }
+
+    public void setArtigo(String artigo) {
+        this.artigo = artigo;
+    }
+    
     public String getTitulo() {
         return titulo;
     }
@@ -28,7 +46,5 @@ public class Comentario {
     public void setDescricao(String descricao) {
         this.descricao = descricao;
     }
-    
-    
-   
+      
 }
