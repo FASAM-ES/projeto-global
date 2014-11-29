@@ -4,6 +4,8 @@
  */
 package br.com.fasam.projetointegracaoglobal.entidades;
 
+import java.util.List;
+
 /**
  *
  * @author Aluno
@@ -11,6 +13,7 @@ package br.com.fasam.projetointegracaoglobal.entidades;
 public class Tag {
     private String desricao;   
     private String nome;
+    private List<Artigo> artigos;
     
    public String getDesricao() {
         return desricao;
@@ -28,4 +31,13 @@ public class Tag {
         this.nome = nome;
     }
 
+    public List<Artigo> getArtigos() {
+        return artigos;
+    }
+
+    public void setArtigos(List<Artigo> artigos) {
+        this.artigos = artigos;
+    }
+
+    
 }
