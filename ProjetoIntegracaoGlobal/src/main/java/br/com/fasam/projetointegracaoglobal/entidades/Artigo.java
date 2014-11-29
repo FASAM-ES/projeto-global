@@ -5,9 +5,28 @@
 package br.com.fasam.projetointegracaoglobal.entidades;
 
 /**
- *
- * @author Aluno
+ * Classe Artigo
+ * @author Evelyn Rodrigues
  */
 public class Artigo {
+    
+    String nome;
+    String descricao;
+
+    public String getNome() {
+        return nome;
+    }
+
+    public void setNome(String nome) {
+        this.nome = nome;
+    }
+
+    public String getDescricao() {
+        return descricao;
+    }
+
+    public void setDescricao(String descricao) {
+        this.descricao = descricao;
+    }  
     
 }
