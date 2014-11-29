@@ -4,6 +4,7 @@
  */
 package br.com.fasam.projetointegracaoglobal.entidades;
 
+import static junit.framework.Assert.assertNotNull;
 import junit.framework.TestCase;
 
 /**
@@ -25,67 +26,18 @@ public class CategoriaTest extends TestCase {
     protected void tearDown() throws Exception {
         super.tearDown();
     }
-
-    /**
-     * Test of getNome method, of class Categoria.
-     */
-    public void testGetNome() {
-        System.out.println("getNome");
-        Categoria instance = new Categoria();
-        String expResult = "";
-        String result = instance.getNome();
-        assertEquals(expResult, result);
-        // TODO review the generated test code and remove the default call to fail.
-        fail("The test case is a prototype.");
-    }
-
-    /**
-     * Test of setNome method, of class Categoria.
-     */
-    public void testSetNome() {
-        System.out.println("setNome");
-        String nome = "";
-        Categoria instance = new Categoria();
-        instance.setNome(nome);
-        // TODO review the generated test code and remove the default call to fail.
-        fail("The test case is a prototype.");
-    }
-
-    /**
-     * Test of getArtigos method, of class Categoria.
-     */
-    public void testGetArtigos() {
-        System.out.println("getArtigos");
-        Integer i = null;
-        Categoria instance = new Categoria();
-        Artigo expResult = null;
-        Artigo result = instance.getArtigos(i);
-        assertEquals(expResult, result);
-        // TODO review the generated test code and remove the default call to fail.
-        fail("The test case is a prototype.");
-    }
-
-    /**
-     * Test of addArtigo method, of class Categoria.
-     */
-    public void testAddArtigo() {
-        System.out.println("addArtigo");
-        Artigo artigo = null;
-        Categoria instance = new Categoria();
-        instance.addArtigo(artigo);
-        // TODO review the generated test code and remove the default call to fail.
-        fail("The test case is a prototype.");
-    }
-
-    /**
-     * Test of remArtigo method, of class Categoria.
-     */
-    public void testRemArtigo() {
-        System.out.println("remArtigo");
-        Artigo artigo = null;
-        Categoria instance = new Categoria();
-        instance.remArtigo(artigo);
-        // TODO review the generated test code and remove the default call to fail.
-        fail("The test case is a prototype.");
+    // TODO add test methods here. The name must begin with 'test'. For example:
+    
+    
+    /* Verificação de preenchimento do nome do artigo */
+    public void testNomeEmCategoria() {
+        Categoria categoria = new Categoria();
+        
+        categoria.setNome("nomeDela");
+        
+        assertNotNull(categoria.getNome());
     }
 }
+     
+     
+
