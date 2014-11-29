@@ -19,7 +19,23 @@ public class Usuario {
     
     List<Artigo> artigos;
     List<Comentario> comentarios;
-            
+
+    public List<Artigo> getArtigos() {
+        return artigos;
+    }
+
+    public void setArtigos(List<Artigo> artigos) {
+        this.artigos = artigos;
+    }
+
+    public List<Comentario> getComentarios() {
+        return comentarios;
+    }
+
+    public void setComentarios(List<Comentario> comentarios) {
+        this.comentarios = comentarios;
+    }
+    
 
     public String getNome() {
         return nome;
