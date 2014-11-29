@@ -15,6 +15,11 @@ public class Comentario {
     String usuario;
     String artigo;
 
+    public Comentario() {
+        titulo = "Primeiro";
+        
+    }
+    
     public String getUsuario() {
         return usuario;
     }
