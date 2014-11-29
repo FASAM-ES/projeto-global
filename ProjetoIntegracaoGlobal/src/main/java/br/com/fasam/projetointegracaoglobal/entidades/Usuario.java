@@ -17,6 +17,14 @@ public class Usuario {
     String senha;
     String telefone;
     String cpf;  
+
+    public List<Artigo> getArtigos() {
+        return artigos;
+    }
+
+    public List<Comentario> getComentarios() {
+        return comentarios;
+    }
      
     List<Artigo> artigos;
     List<Comentario> comentarios;
