@@ -35,7 +35,7 @@ public class ArtigoTest extends TestCase {
     
     /* Verificação de preenchimento do nome do artigo */
     public void testNomeEmArtigo() {
-        Artigo artigo = new Artigo();
+        Artigo artigo = new Artigo(new Usuario());
         
         artigo.setNome("Artigo Global");
         

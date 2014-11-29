@@ -38,7 +38,7 @@ public class existeArtigoDoUsuario extends TestCase {
         usuario.setSenha("123");
         usuario.setTelefone("(62)32555566");
         
-        Artigo artigo = new Artigo();
+        Artigo artigo = new Artigo(new Usuario());
         artigo.setNome("Integração");
         artigo.setDescricao("");
         artigo.setUsuario(usuario);

@@ -2,10 +2,8 @@
  * To change this template, choose Tools | Templates
  * and open the template in the editor.
  */
-package br.com.fasam.projetointegracaoglobal;
+package br.com.fasam.projetointegracaoglobal.entidades;
 
-
-import br.com.fasam.projetointegracaoglobal.entidades.Comentario;
 import static junit.framework.Assert.assertNotNull;
 import junit.framework.TestCase;
 
@@ -37,7 +35,7 @@ public class TesteComentario extends TestCase {
     public void testComentario() {
         Comentario comentario = new Comentario();
         
-        assertNotNull(getName());
+        assertNotNull(comentario.getTitulo());
     }
      
  }

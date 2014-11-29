@@ -36,7 +36,7 @@ public class TagTest extends TestCase {
         instance.setNome("NSFW");
         instance.setDesricao("Not safe to work");
         
-        artigo = new Artigo();
+        artigo = new Artigo(new Usuario());
         artigo.setNome("Artigo teste");
         artigo.setDescricao("blá blá");
         artigo.setUsuario(new Usuario());
