@@ -2,15 +2,13 @@
  * To change this template, choose Tools | Templates
  * and open the template in the editor.
  */
-package br.com.fasam.projetointegracaoglobal;
+package br.com.fasam.projetointegracaoglobal.entidades;
 
-import br.com.fasam.projetointegracaoglobal.entidades.Artigo;
-import br.com.fasam.projetointegracaoglobal.entidades.Usuario;
 import junit.framework.TestCase;
 
 /**
- *
- * @author Aluno
+ * Classe de Testes dos Artigos
+ * @author Evelyn Rodrigues
  */
 public class ArtigoTest extends TestCase {
     
