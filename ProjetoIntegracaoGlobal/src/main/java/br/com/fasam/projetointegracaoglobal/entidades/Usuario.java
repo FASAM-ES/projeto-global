@@ -4,6 +4,7 @@
  */
 package br.com.fasam.projetointegracaoglobal.entidades;
 
+import java.util.ArrayList;
 import java.util.List;
 
 /**
@@ -20,20 +21,38 @@ public class Usuario {
     List<Artigo> artigos;
     List<Comentario> comentarios;
 
-    public List<Artigo> getArtigos() {
-        return artigos;
+    public void addArtigo(Artigo artigo) {
+        if(this.artigos == null){
+            this.artigos = new ArrayList<Artigo>();
+        }
+        this.artigos.add(artigo);
     }
-
-    public void setArtigos(List<Artigo> artigos) {
-        this.artigos = artigos;
+    
+    public Artigo getArtigo(Integer i){
+        return artigos.get(i);
     }
-
-    public List<Comentario> getComentarios() {
-        return comentarios;
+    
+    public void remArtigo(Artigo artigo){
+        if (this.artigos != null ){
+            artigos.remove(artigo);
+        }
     }
-
-    public void setComentarios(List<Comentario> comentarios) {
-        this.comentarios = comentarios;
+    
+     public void addComentario(Comentario comentario) {
+        if(this.comentarios == null){
+            this.comentarios = new ArrayList<Comentario>();
+        }
+        this.comentarios.add(comentario);
+    }
+    
+    public Comentario getComentario(Integer i){
+        return comentarios.get(i);
+    }
+    
+    public void remComentario(Comentario comentario){
+        if (this.comentarios != null ){
+            comentarios.remove(comentario);
+        }
     }
     
 
