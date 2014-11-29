@@ -4,6 +4,7 @@
  */
 package br.com.fasam.projetointegracaoglobal.entidades;
 
+import java.util.ArrayList;
 import java.util.List;
 
 /**
@@ -30,14 +31,21 @@ public class Tag {
     public void setNome(String nome) {
         this.nome = nome;
     }
-
-    public List<Artigo> getArtigos() {
-        return artigos;
+   
+    public Artigo getArtigos(Integer i){
+        return artigos.get(i);
     }
-
-    public void setArtigos(List<Artigo> artigos) {
-        this.artigos = artigos;
-    }
-
     
+    public void addArtigo(Artigo artigo){
+        if (this.artigos == null){
+            this.artigos = new ArrayList<Artigo>();            
+        }
+        this.artigos.add(artigo);
+    }
+    
+    public void remArtigo(Artigo artigo){
+        if (this.artigos != null){
+            this.artigos.remove(artigo);
+        }
+    }
 }
