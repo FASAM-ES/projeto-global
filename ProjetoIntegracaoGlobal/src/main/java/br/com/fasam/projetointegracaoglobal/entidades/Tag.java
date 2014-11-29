@@ -12,16 +12,16 @@ import java.util.List;
  * @author Fredgyn
  */
 public class Tag {
-    private String desricao;   
+    private String descricao;   
     private String nome;
     private List<Artigo> artigos;
     
    public String getDesricao() {
-        return desricao;
+        return descricao;
     }
 
     public void setDesricao(String desricao) {
-        this.desricao = desricao;
+        this.descricao = desricao;
     }
     
     public String getNome() {
