@@ -24,10 +24,13 @@ public class Conexao {
     public static Connection getConexao() throws SQLException {
         try {
             Class.forName(driver);
+            return DriverManager.getConnection(url, usuario, senha);
         } catch (ClassNotFoundException ex) {
             Logger.getLogger(Conexao.class.getName()).log(Level.SEVERE, null, ex);
+        } catch (SQLException ex) {
+            Logger.getLogger(Conexao.class.getName()).log(Level.SEVERE, null, ex);
         }
-        return DriverManager.getConnection(url, usuario, senha);
+        return null;
     }
 
 }
