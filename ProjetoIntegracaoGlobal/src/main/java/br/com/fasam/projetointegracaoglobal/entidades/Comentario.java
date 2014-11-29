@@ -31,7 +31,6 @@ public class Comentario {
         this.artigo = artigo;
     }
     
-
     public String getTitulo() {
         return titulo;
     }
