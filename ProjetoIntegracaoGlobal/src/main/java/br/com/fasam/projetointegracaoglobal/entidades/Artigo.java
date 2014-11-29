@@ -10,9 +10,11 @@ package br.com.fasam.projetointegracaoglobal.entidades;
  */
 public class Artigo {
     
+    /* Definições dos atributos */
     String nome;
     String descricao;
 
+    /* Definições das propriedades */    
     public String getNome() {
         return nome;
     }

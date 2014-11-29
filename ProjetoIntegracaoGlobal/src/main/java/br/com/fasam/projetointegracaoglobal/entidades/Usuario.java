@@ -4,6 +4,8 @@
  */
 package br.com.fasam.projetointegracaoglobal.entidades;
 
+import java.util.List;
+
 /**
  *Entidade de cadastro de usuário
  * @author Stanley Dias Paulo
@@ -13,7 +15,27 @@ public class Usuario {
     String email;
     String senha;
     String telefone;
-    String cpf;    
+    String cpf;  
+    
+    List<Artigo> artigos;
+    List<Comentario> comentarios;
+
+    public List<Artigo> getArtigos() {
+        return artigos;
+    }
+
+    public void setArtigos(List<Artigo> artigos) {
+        this.artigos = artigos;
+    }
+
+    public List<Comentario> getComentarios() {
+        return comentarios;
+    }
+
+    public void setComentarios(List<Comentario> comentarios) {
+        this.comentarios = comentarios;
+    }
+    
 
     public String getNome() {
         return nome;
