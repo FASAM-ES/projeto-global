@@ -21,7 +21,7 @@ public class Conexao {
     private static String usuario = "postgres";
     private static String senha = "fasam";
 
-    public static Connection getConexao() throws SQLException {
+    public static Connection getConexao() {
         try {
             Class.forName(driver);
             return DriverManager.getConnection(url, usuario, senha);
