@@ -5,14 +5,21 @@
 package br.com.fasam.projetointegracaoglobal.entidades;
 
 /**
- * Classe Artigo
- * @author Evelyn Rodrigues
+ *
+ * @author Aluno
  */
-public class Artigo {
+public class Tag {
+    private String desricao;   
+    private String nome;
     
-    String nome;
-    String descricao;
+   public String getDesricao() {
+        return desricao;
+    }
 
+    public void setDesricao(String desricao) {
+        this.desricao = desricao;
+    }
+    
     public String getNome() {
         return nome;
     }
@@ -21,12 +28,4 @@ public class Artigo {
         this.nome = nome;
     }
 
-    public String getDescricao() {
-        return descricao;
-    }
-
-    public void setDescricao(String descricao) {
-        this.descricao = descricao;
-    }  
-    
 }
