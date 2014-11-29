@@ -9,7 +9,7 @@ import java.util.List;
 
 /**
  *
- * @author Aluno
+ * @author Fredgyn
  */
 public class Tag {
     private String desricao;   
