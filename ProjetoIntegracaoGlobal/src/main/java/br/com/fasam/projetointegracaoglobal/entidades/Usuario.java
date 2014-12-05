@@ -17,7 +17,9 @@ public class Usuario {
     String senha;
     String telefone;
     String cpf;  
-
+    List<Artigo> artigos;
+    List<Comentario> comentarios;
+    
     public List<Artigo> getArtigos() {
         return artigos;
     }
@@ -25,10 +27,7 @@ public class Usuario {
     public List<Comentario> getComentarios() {
         return comentarios;
     }
-     
-    List<Artigo> artigos;
-    List<Comentario> comentarios;
-
+   
     public void addArtigo(Artigo artigo) {
         if(this.artigos == null){
             this.artigos = new ArrayList<Artigo>();

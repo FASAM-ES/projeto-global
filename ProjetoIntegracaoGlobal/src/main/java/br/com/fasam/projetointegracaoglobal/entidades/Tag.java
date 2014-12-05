@@ -1,16 +1,10 @@
-/*
- * To change this template, choose Tools | Templates
- * and open the template in the editor.
- */
+
 package br.com.fasam.projetointegracaoglobal.entidades;
 
 import java.util.ArrayList;
 import java.util.List;
 
-/**
- *
- * @author Fredgyn
- */
+
 public class Tag {
     private String descricao;   
     private String nome;

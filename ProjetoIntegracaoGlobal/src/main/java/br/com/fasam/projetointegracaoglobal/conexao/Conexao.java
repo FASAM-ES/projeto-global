@@ -21,6 +21,9 @@ public class Conexao {
     private static String usuario = "postgres";
     private static String senha = "fasam";
 
+    public Conexao() {
+    }
+
     public static Connection getConexao() {
         try {
             Class.forName(driver);

@@ -13,18 +13,26 @@ import java.util.List;
  */
 public class Categoria {
     String nome;
-    String Descricao;
+    String descricao;    
+    List<Artigo> artigos;
     
-     List<Artigo> artigos;
-    
-     public String getNome() {
+    public String getNome() {
         return nome;
     }
      
-      public void setNome(String nome) {
+    public void setNome(String nome) {
         this.nome = nome;
     }
-        public Artigo getArtigos(Integer i){
+
+    public String getDescricao() {
+        return descricao;
+    }
+
+    public void setDescricao(String descricao) {
+        this.descricao = descricao;
+    }
+      
+    public Artigo getArtigos(Integer i){
         return artigos.get(i);
     }
     
