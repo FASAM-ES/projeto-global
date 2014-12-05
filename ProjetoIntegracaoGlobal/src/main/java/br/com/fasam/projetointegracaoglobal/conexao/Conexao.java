@@ -21,7 +21,7 @@ public class Conexao {
     private static String usuario = "postgres";
     private static String senha = "fasam";
 
-    public Conexao() {
+    private Conexao() {
     }
 
     public static Connection getConexao() {

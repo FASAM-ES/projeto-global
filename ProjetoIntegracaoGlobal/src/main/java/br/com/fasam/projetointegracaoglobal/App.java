@@ -1,14 +1,27 @@
 package br.com.fasam.projetointegracaoglobal;
 
+import br.com.fasam.projetointegracaoglobal.entidades.Tag;
+import java.util.Set;
+
 
 /**
  * Hello world!
  *
  */
 public class App {
-    public App() {
+    
+    private App() {
     }           
     
-    public static void main( String[] args ){         
+    public static void main( String[] args ){  
+        Tag tag;
+        
+        tag = new Tag();
+        tag.setNome("tagTeste");
+        tag.setDesricao("TagDescricao");
+                
     }
+    
+    
+    
 }
