@@ -99,7 +99,7 @@ public class Usuario {
 
     /**
      * Retorno o nome do usuário
-     * @return 
+     * @return nome
      */
     public String getNome() {
         return nome;
@@ -115,7 +115,7 @@ public class Usuario {
 
     /**
      * Retorna o e-mail do usuário
-     * @return 
+     * @return email
      */
     public String getEmail() {
         return email;
@@ -131,7 +131,7 @@ public class Usuario {
 
     /**
      * Retorna a senha do usuário
-     * @return 
+     * @return senha
      */
     public String getSenha() {
         return senha;
@@ -147,7 +147,7 @@ public class Usuario {
 
     /**
      * Retorna o telefone do usuário
-     * @return 
+     * @return telefone
      */
     public String getTelefone() {
         return telefone;
@@ -163,7 +163,7 @@ public class Usuario {
 
     /**
      * Retorna o cpf do usuário
-     * @return 
+     * @return retorna o cpf
      */
     public String getCpf() {
         return cpf;
