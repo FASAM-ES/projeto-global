@@ -10,7 +10,7 @@ import java.util.List;
 /**
  *
  * @author Fernando
- * @return 
+ * 
  */
 public class Categoria {
    
@@ -37,7 +37,12 @@ public class Categoria {
     public void setDescricao(String descricao) {
         this.descricao = descricao;
     }
-      
+    
+    /**
+     * Obtém os dados do artigo
+     * @param i Indice do artigo
+     * @return Retorna os dados artigo
+     */
     public Artigo getArtigos(Integer i){
         return artigos.get(i);
     }
@@ -50,6 +55,10 @@ public class Categoria {
         this.artigos.add(artigo);
     }
   
+    /**
+     * Remove o artigo
+     * @param artigo Dados do artigo
+     */
     public void remArtigo(Artigo artigo){
         if (this.artigos != null){
             this.artigos.remove(artigo);
