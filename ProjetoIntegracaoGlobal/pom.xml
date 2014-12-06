@@ -27,4 +27,17 @@
       <version>9.1-901-1.jdbc4</version>
     </dependency>
   </dependencies>
+  <distributionManagement>
+      <repository>
+          <id>central</id>
+          <name>repositorio de Releases</name>
+          <url>http://ci.fasam.info.tm:8080/nexus/content/repositories/central/</url>
+      </repository>
+      <snapshotRepository>
+          <id>snapshots</id>
+          <name>repositorio de Snapshots</name>
+          <url>http://ci.fasam.info.tm:8080/nexus/content/repositories/apache-snapshots/</url>
+          <uniqueVersion>true</uniqueVersion>
+      </snapshotRepository>
+  </distributionManagement>
 </project>
