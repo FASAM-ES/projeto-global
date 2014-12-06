@@ -26,7 +26,7 @@ public class ConexaoTest extends TestCase {
         super.tearDown();
     }
 
-    /* Verificação de conexão com banco de dados*/ 
+    /* Verificação de conexão com banco de dados alterado*/ 
     public void testConexao() {
         //Connection con = Conexao.getConexao();
         //assertNotNull(con);
