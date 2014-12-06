@@ -4,11 +4,21 @@
 
   <groupId>br.com.fasam</groupId>
   <artifactId>ProjetoIntegracaoGlobal</artifactId>
-  <version>1.0-SNAPSHOT</version>
+  <version>1.1-SNAPSHOT</version>
   <packaging>jar</packaging>
 
   <name>ProjetoIntegracaoGlobal</name>
   <url>http://maven.apache.org</url>
+
+  <reporting>
+      <plugins>
+          <plugin>
+              <groupId>org.apache.maven.plugins</groupId>
+              <artifactId>maven-javadoc-plugin</artifactId>
+              <version>2.10.1</version>
+          </plugin>
+      </plugins>
+  </reporting>
 
   <properties>
     <project.build.sourceEncoding>UTF-8</project.build.sourceEncoding>

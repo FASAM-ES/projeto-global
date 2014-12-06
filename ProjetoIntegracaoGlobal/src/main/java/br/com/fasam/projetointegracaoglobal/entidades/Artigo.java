@@ -9,7 +9,7 @@ import java.util.List;
 
 /**
  * Classe Artigo
- * @author Evelyn Rodrigues
+ * @author Evelyn Rodrigues Sales Barbosa
  */
 public class Artigo {
     
