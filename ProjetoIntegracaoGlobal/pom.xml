@@ -31,12 +31,12 @@
   <distributionManagement>
       <repository>
           <id>central</id>
-          <name>Repositório de release</name>
+          <name>Repositorio de release</name>
           <url>http://ci.fasam.info.tm:8080/nexus/content/repositories/releases/</url>
       </repository>
       <snapshotRepository>
-          <id>spanshots</id>
-          <name>Repositório de snapshots</name>
+          <id>snapshots</id>
+          <name>Repositorio de snapshots</name>
           <url>http://ci.fasam.info.tm:8080/nexus/content/repositories/snapshots/</url>
           <uniqueVersion>true</uniqueVersion>
       </snapshotRepository>
