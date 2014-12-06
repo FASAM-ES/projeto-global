@@ -41,12 +41,12 @@
       <repository>
           <id>central</id>
           <name>repositorio de Releases</name>
-          <url>http://ci.fasam.info.tm:8080/nexus/content/repositories/central/</url>
+          <url>http://ci.fasam.info.tm:8080/nexus/content/repositories/releases/</url>
       </repository>
       <snapshotRepository>
           <id>snapshots</id>
           <name>repositorio de Snapshots</name>
-          <url>http://ci.fasam.info.tm:8080/nexus/content/repositories/apache-snapshots/</url>
+          <url>http://ci.fasam.info.tm:8080/nexus/content/repositories/snapshots/</url>
           <uniqueVersion>true</uniqueVersion>
       </snapshotRepository>
   </distributionManagement>
