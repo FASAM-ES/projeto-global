@@ -6,7 +6,7 @@ package br.com.fasam.projetointegracaoglobal.entidades;
 
 /**
  *
- * @author Aluno
+ * @author Gilmar Borges
  */
 public class Comentario {
 
