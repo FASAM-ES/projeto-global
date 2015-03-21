@@ -36,4 +36,10 @@ public class AppTest
         int val = 5;
         assertEquals(val, 5);
     }
+    
+    public void testeStanley()
+    {
+        int val = 5;
+        assertEquals(val, 5);	
+    }
 }
